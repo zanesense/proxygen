@@ -44,6 +44,10 @@ def gen():
         f.write(r.text)
     print(good("Wrote the output to output.json in the current dir."))
 
-gen()
+try:
+    gen()
+except:
+    print(bad("Proxy generation failed, check your internet connection."))
+    sys.exit()
 
 
