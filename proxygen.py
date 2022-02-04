@@ -33,7 +33,7 @@ if len(proxy_country) == 0:
     print(bad("No input was provided, exiting.."))
     sys.exit()
 
-proxy_limit = input(info("How many proxies to generate? (min. 10)\n>> "))
+proxy_limit = input(info("Upto how many proxies to generate, if possible? (min. 10)\n>> "))
 if len(proxy_limit) == 0:
     print(bad("No input was provied, exiting.."))
     sys.exit()
