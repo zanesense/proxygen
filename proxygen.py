@@ -7,6 +7,8 @@ except:
     print("required modules missing, installing..")
     os.system("pip install huepy requests")
 
+os.system("clear")
+
 print(green(r'''                                                      
 _____________  _______  ______.__. ____   ____   ____  
 \____ \_  __ \/  _ \  \/  <   |  |/ ___\_/ __ \ /    \ 
